@@ -1,0 +1,167 @@
+* {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid svg {
+    width: 25px;
+    height: 25px;
+    fill: rgb(254, 138, 166);
+    border-color : rgb(254, 138, 166) !important;
+    border-radius: 50%;
+
+}
+
+body {
+    background-color: #333 !important;
+    color: rgb(254, 138, 166);
+    min-width: 530px;
+}
+
+.navbar-brand {
+    color: rgb(254, 138, 166) !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.navbar-brand:hover {
+    color: #f6456e !important;
+    transition: color 0.8s ease;
+}
+.dropdown-menu {
+    background-color: #444 !important;
+}
+
+.nav-link,
+.dropdown-item {
+    color: rgb(254, 138, 166) !important;
+
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    background-color: rgba(253, 61, 106, 0.2) !important;
+    border-radius: 10px!important;
+    transition: background-color 0.5s ease;
+}
+
+.footer .text-body {
+    color: rgb(254, 138, 166) !important;
+}
+
+.card {
+    background-color: #444;
+    border: none;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.card:hover {
+    background-color: rgba(253, 61, 106, 0.2) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    color: rgb(254, 138, 166) !important;
+    font-weight: bold;
+}
+
+.card-text {
+    color: rgb(254, 138, 166);
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    color: #fe8aa6;
+    margin: 15px;
+    padding-top: 90px;
+}
+
+hr.thick-hr {
+    border: 0;
+    height: 3px;
+    background-color: rgb(254, 138, 166);
+}
+
+.imagenes {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "a b c"
+                         "a d d";
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 98%;
+    margin: 15px;
+}
+
+.imagenes > div {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imagenes > div > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.imagenes > div > img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.area-a { grid-area: a; }
+.area-b { grid-area: b; }
+.area-c { grid-area: c; }
+.area-d { grid-area: d; }
+
+@media (max-width: 768px) {
+    .imagenes {
+        grid-template-areas: "a"
+                             "b"
+                             "c"
+                             "d";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .imagenes {
+        grid-template-areas: "a b"
+                             "a d"
+                             "c d";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+.recipe-img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-img {
+    max-height: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    color: rgb(254, 138, 166) !important;
+}
+
+.list-group-item {
+    background-color:  #333!important;
+}
