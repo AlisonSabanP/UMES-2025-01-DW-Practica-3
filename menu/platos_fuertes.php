@@ -11,7 +11,7 @@
     <meta property="og:description" content="Página Oficial del Restaurante The RAMen House">
     <meta property="og:image" content="imagen.jpg">
     <meta property="og:url" content="https://www.theramenhouse.com">
-    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../imagenes/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
