@@ -36,6 +36,11 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item m-1">
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalreservacion">
+                            Solicitar cotización
+                        </button>
+                    </li>
                     <li class="nav-item m-2">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
@@ -44,29 +49,72 @@
                         Menú
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="menu/platos_fuertes.html">Platos fuertes</a></li>
-                            <li><a class="dropdown-item" href="menu/postres.html">Postres</a></li>
+                            <li><a class="dropdown-item" href="menu/platos_fuertes.php">Platos fuertes</a></li>
+                            <li><a class="dropdown-item" href="menu/postres.php">Postres</a></li>
                         </ul>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="personal/personal.html">Personal</a>
+                        <a class="nav-link" href="personal/personal.php">Personal</a>
                     </li>
                     <li class="nav-item dropdown m-2">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Recetas
                         </a>
                         <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="recetas/recetas-dulces.html">Recetas dulces</a></li>
-                            <li><a class="dropdown-item" href="recetas/recetas-saladas.html">Recetas saladas</a></li>
+                            <li><a class="dropdown-item" href="recetas/recetas-dulces.php">Recetas dulces</a></li>
+                            <li><a class="dropdown-item" href="recetas/recetas-saladas.php">Recetas saladas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="resenias/resenias.html">Reseñas</a>
+                        <a class="nav-link" href="resenias/resenias.php">Reseñas</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="pag_reservaciones/reservaciones.php">Reservaciones</a>
                     </li>
                 </ul>   
             </div>
         </div>
     </nav>
+
+    <div id="content">
+        <div class="modal fade" id="modalreservacion" tabindex="-1" aria-labelledby="modalreservacionLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalreservacionLabel">Nueva Reservación</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="reservacion.php" method="POST">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre completo:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono:</label>
+                                <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="fecha" class="form-label">Fecha de reserva:</label>
+                                <input type="date" class="form-control" id="fecha" name="fecha" placeholder="Ingrese la fecha de reserva" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="hora" class="form-label">Hora de reserva:</label>
+                                <input type="time" class="form-control" id="hora" name="hora" placeholder="Ingrese la hora de reserva" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="descripcion" class="form-label">Descripción de la reserva:</label>
+                                <textarea rows="10" class="form-control" id="descripcion" name="descripcion" placeholder="Ingrese una descripción de lo que necesita..." ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Realizar Reservación</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container-fluid" style="margin-top: 100px !important;">
         <div class="row">
             <div class="col-12 col-md-6">

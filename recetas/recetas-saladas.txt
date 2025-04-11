@@ -1,0 +1,29 @@
+Nombre: Ramen de Cerdo Tonkotsu
+Descripción: Sumérgete en la auténtica experiencia del ramen japonés con nuestro Ramen de Cerdo Tonkotsu, un plato que combina tradición y sabor en cada cucharada.
+Imagen: tonkotsu ramen.jpg
+Ingredientes: 500 g de huesos de cerdo|200 g de fideos para ramen|300 g de lomo de cerdo|2 huevos|2 dientes de ajo|1 cebolla|1 trozo de jengibre|Salsa de soya, mirin y sake|Cebollín, brotes de bambú y algas nori
+Preparación: Coloca huesos de cerdo en agua y cocina para eliminar impurezas|Prepara el caldo cocinando por 8-10 horas|Prepara el cerdo chashu marinado|Hierve huevos para yema líquida|Cocina fideos según instrucciones|Arma el plato con todos los ingredientes
+---
+Nombre: Ramen de Pollo Shoyu
+Descripción: Nuestro Ramen de Pollo Shoyu es una opción ligera pero llena de sabor, ideal para quienes buscan una experiencia reconfortante sin sacrificar la autenticidad.
+Imagen: ramen-de-pollo.jpg
+Ingredientes: 500 g de pollo|200 g de fideos para ramen|1 litro de caldo de pollo|3 cucharadas de salsa de soya|1 cucharada de mirin|1 cebollín|1 huevo marinado|Champiñones y espinacas
+Preparación: Cocina pollo para hacer caldo|Prepara caldo con salsa de soya y mirin|Hierve huevos para yema líquida|Cocina fideos según instrucciones|Arma el plato con todos los ingredientes
+---
+Nombre: Ramen de Curry Picante
+Descripción: Para los amantes de los sabores audaces, presentamos nuestro Ramen de Curry Picante que combina la riqueza de caldo de cerdo con pasta de curry rojo.
+Imagen: curry ramen.jpg
+Ingredientes: 500 g de huesos de cerdo|200 g de fideos para ramen|2 cucharadas de pasta de curry rojo|1 cebolla|2 dientes de ajo|1 trozo de jengibre|300 g de cerdo chashu|1 huevo marinado|Cebollín y brotes de soya
+Preparación: Prepara caldo tonkotsu|Añade pasta de curry al caldo|Prepara cerdo chashu marinado|Hierve huevos para yema líquida|Cocina fideos según instrucciones|Arma el plato con todos los ingredientes
+---
+Nombre: Ramen de Mariscos Miso
+Descripción: Inspirado en los sabores del mar, nuestro Ramen de Mariscos Miso es una delicia para los amantes de los mariscos con caldo de miso y pescado.
+Imagen: miso mariscos ramen.jpg
+Ingredientes: 200 g de fideos para ramen|500 g de mariscos mixtos|2 cucharadas de pasta de miso|1 litro de caldo de pescado|1 cebollín|1 huevo marinado|Algas nori y brotes de soya
+Preparación: Prepara caldo de miso|Saltea mariscos mixtos|Hierve huevos para yema líquida|Cocina fideos según instrucciones|Arma el plato con todos los ingredientes
+---
+Nombre: Ramen Vegetariano de Verduras Asadas
+Descripción: Ramen Vegetariano de Verduras Asadas, un plato que no sacrifica sabor ni autenticidad con caldo de verduras asadas.
+Imagen: vegetariano ramen.jpg
+Ingredientes: 200 g de fideos para ramen|1 litro de caldo de verduras|1 zanahoria|1 calabacín|1 pimiento rojo|1 cebolla|2 cucharadas de salsa de soya|1 huevo marinado (opcional)|Brotes de soya y cebollín
+Preparación: Asa verduras en horno|Prepara caldo licuando verduras|Hierve huevos para yema líquida (opcional)|Cocina fideos según instrucciones|Arma el plato con todos los ingredientes

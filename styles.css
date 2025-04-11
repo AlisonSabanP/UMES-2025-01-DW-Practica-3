@@ -165,3 +165,82 @@ hr.thick-hr {
 .list-group-item {
     background-color:  #333!important;
 }
+
+.table thead th {
+    background-color: #242424!important;
+    color: rgb(254, 138, 166) !important;
+    padding: 12px 15px!important;
+    text-align: left!important;
+}
+
+.table tbody td {
+    background-color: #242424!important;
+    padding: 12px 15px!important;
+    border-bottom: 1px solid #ddd!important;
+    color: rgb(254, 138, 166) !important;
+}
+
+
+
+
+  .receta {
+    background-color: #242424;
+    border-radius: 15px;
+    color: rgb(254, 138, 166);
+    padding: 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border: 1px solid #ffebee;
+  }
+  
+  .receta h2 {
+    color: rgb(254, 138, 166);
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffcdd2;
+  }
+  
+  .descripcion {
+    color: rgb(254, 138, 166);
+    margin-bottom: 20px;
+  }
+  
+  .imagen-receta {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+
+  .seccion-ingredientes,
+  .seccion-preparacion {
+    margin: 25px 0;
+  }
+  
+  .seccion-ingredientes h3,
+  .seccion-preparacion h3 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+  }
+  
+  .receta ul,
+  .receta ol {
+    padding-left: 20px;
+  }
+  
+  .receta li {
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .recetas-container {
+      padding: 10px;
+    }
+    
+    .receta {
+      padding: 15px;
+    }
+  }

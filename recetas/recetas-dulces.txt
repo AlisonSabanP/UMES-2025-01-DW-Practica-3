@@ -1,0 +1,29 @@
+Nombre: Mochi de Matcha
+Descripción: El Mochi de Matcha es un postre tradicional japonés que combina la suavidad del mochi con el sabor terroso y ligeramente amargo del matcha.
+Imagen: mochi_matcha.jpg
+Ingredientes: 200 g de harina de arroz glutinoso|150 g de azúcar|200 ml de agua|2 cucharaditas de té matcha|Almidón de maíz|Anko o helado de matcha
+Preparación: Mezcla ingredientes en un tazón|Cocina en microondas 2 minutos|Espolvorea superficie con almidón|Forma bolas con el relleno
+---
+Nombre: Dorayaki
+Descripción: El Dorayaki es un postre clásico japonés que consiste en dos panqueques esponjosos rellenos de anko.
+Imagen: dorayaki.jpg
+Ingredientes: 2 huevos|80 g de azúcar|1 cucharada de miel|120 g de harina|1/2 cucharadita de bicarbonato|2 cucharadas de agua
+Preparación: Bate huevos con azúcar|Añade harina y mezcla|Cocina en sartén antiadherente|Rellena con anko
+---
+Nombre: Taiyaki
+Descripción: El Taiyaki es un postre en forma de pez, tradicionalmente relleno de anko.
+Imagen: taiyaki.jpg
+Ingredientes: 150 g de harina|1 cucharadita de polvo para hornear|1 huevo|50 g de azúcar|150 ml de leche
+Preparación: Mezcla ingredientes secos|Añade líquidos|Vierte en molde taiyaki|Cocina 3-4 minutos por lado
+---
+Nombre: Mitarashi Dango
+Descripción: Bolas de mochi ensartadas en palillos con salsa dulce y salada.
+Imagen: dango.jpg
+Ingredientes: 200 g harina de arroz glutinoso|100 ml agua|2 cucharadas salsa soya|2 cucharadas azúcar|1 cucharada almidón de maíz
+Preparación: Mezcla harina y agua|Forma bolas pequeñas|Hierve hasta que floten|Prepara salsa espesa
+---
+Nombre: Castella
+Descripción: Bizcocho esponjoso y húmedo de origen portugués-japonés.
+Imagen: Castella.jpg
+Ingredientes: 4 huevos|120 g azúcar|100 g harina|2 cucharadas miel|2 cucharadas leche
+Preparación: Bate huevos con azúcar|Incorpora miel y leche|Añade harina tamizada|Hornea 40-45 minutos
